@@ -14,6 +14,10 @@ describe('Javabuzz', function() {
       it('divisible by 5', function() {
         expect(javabuzz.isDivisibleByFive(5)).toBe(true);
       });
+
+      it('divisible by 15', function() {
+        expect(javabuzz.isDivisibleByFifteen(15)).toBe(true);
+      });
     });
 
     describe('known when a number is NOT', function(){
@@ -23,6 +27,10 @@ describe('Javabuzz', function() {
 
       it('divisible by 5', function() {
         expect(javabuzz.isDivisibleByFive(4)).toBe(false);
+      });
+
+      it('divisible by 15', function() {
+        expect(javabuzz.isDivisibleByFifteen(4)).toBe(false);
       });
     });
 
